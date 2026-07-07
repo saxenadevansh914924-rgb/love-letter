@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Muskan Shrivastava</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="letter-stage" aria-label="Animated love letter for Muskan Shrivastava">
+        <div class="ambient" aria-hidden="true">
+          <span style="--x: 8%; --d: 0s; --s: 0.8">♡</span>
+          <span style="--x: 19%; --d: 2.5s; --s: 1.1">✦</span>
+          <span style="--x: 31%; --d: 1s; --s: 0.95">♡</span>
+          <span style="--x: 47%; --d: 3.2s; --s: 1.25">✿</span>
+          <span style="--x: 62%; --d: 0.6s; --s: 0.85">♡</span>
+          <span style="--x: 74%; --d: 2s; --s: 1.05">✦</span>
+          <span style="--x: 88%; --d: 1.4s; --s: 1.2">♡</span>
+        </div>
+
+        <div class="hero-copy">
+          <p class="eyebrow">ek chhoti si baat</p>
+          <h1>Muskan Shrivastava</h1>
+          <p class="subtitle">
+            kuch feelings aisi hoti hain jo dil mein rakhne se aur gehri ho jaati hain.
+            Aaj unhe pyaar se lafzon mein rakh diya hai.
+          </p>
+        </div>
+
+        <article class="envelope-card" id="letterCard">
+          <button class="seal" id="openLetter" type="button" aria-label="Open love letter">
+            <span>Open</span>
+          </button>
+
+          <div class="envelope" aria-hidden="true">
+            <div class="envelope-back"></div>
+            <div class="paper-preview"></div>
+            <div class="flap"></div>
+            <div class="front-left"></div>
+            <div class="front-right"></div>
+          </div>
+
+          <div class="letter" aria-live="polite">
+            <p class="letter-kicker">Dear Muskan,</p>
+            <h2>Mann ki baat...</h2>
+            <p id="typedMessage"></p>
+            <p class="signature">- dil se</p>
+          </div>
+        </article>
+
+        <div class="actions">
+          <button class="primary-action" id="replayLetter" type="button">Dobara padho</button>
+          <button class="ghost-action" id="sparkButton" type="button">Thoda aur magic</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
