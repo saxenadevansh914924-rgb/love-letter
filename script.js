@@ -5,8 +5,9 @@ const sparkButton = document.querySelector("#sparkButton");
 const typedMessage = document.querySelector("#typedMessage");
 const ambient = document.querySelector(".ambient");
 
-const message = `Muskan ji, apki muskaan mein ek ajeeb si shaanti hai.
-
+const message = `happy birthday Muskan ji, apki muskaan mein ek ajeeb si shaanti hai.
+I hope aapka Aaj ka din bahut achha jae,aaj hm logo ko baat krte hue kitne mahine ho gye.aap meri life ka ek aham hissa bn chuki hai.
+mai aapse itni dur hu aapse mil to nhi skta ,but aap mujhe btao aapko kya pasand hai ,mai aapke address pr order kr dunga ,jo bhi aapko pasand ho.
 Jab bhi aapse baat hoti hai, din thoda halka, aur dil thoda zyada sachcha lagne lagta hai.
 
 Main shayad perfect lafz na dhoondh paaun, par itna zaroor kehna chahta hoon: aap mere liye special ho.
